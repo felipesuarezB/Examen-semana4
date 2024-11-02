@@ -11,7 +11,7 @@ export class VehiculoService {
 
   constructor(private http: HttpClient) { }
 
-  getGenres(): Observable<Vehiculo[]> {
+  getVehiculos(): Observable<Vehiculo[]> {
     return this.http.get<Vehiculo[]>(environment.baseUrl);
   }
 }

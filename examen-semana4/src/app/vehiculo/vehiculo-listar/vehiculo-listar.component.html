@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="titulo"><h1>TuSegundazo.com</h1></div>
+    <hr>
+    <div class="col-md-6">
+      <div class="banner"><img src="assets/banner.jpeg" alt=""></div>
+      <hr>
+      <div class="listado">
+        <table class="table">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Marca</th>
+              <th scope="col">Línea</th>
+              <th scope="col">Modelo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let vehiculo of vehiculos">
+              <th scope="row">{{ vehiculo.id }}</th>
+              <td>{{ vehiculo.marca }}</td>
+              <td>{{ vehiculo.linea }}</td>
+              <td>{{ vehiculo.modelo }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="footer"><p>Contact us: +57 310501826 - info&#64;tusegundazo.com - &#64;tusegundazo.com</p></div>
+    </div>
+  </div>
+</div>

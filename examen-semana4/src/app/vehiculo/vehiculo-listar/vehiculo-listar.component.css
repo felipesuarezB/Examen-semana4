@@ -9,3 +9,27 @@
   left: 0;
   width: 100%;
 }
+
+.titulo {
+  font-family: 'Inter';
+  font-size: 36px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+}
+
+.table {
+  font-family: 'Jaldi';
+  font-size: 18px;
+}
+
+.conteo {
+  font-family: 'Jaldi';
+  font-size:18px;
+}

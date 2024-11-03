@@ -25,6 +25,11 @@
           </tbody>
         </table>
       </div>
+      <ul>
+        <li *ngFor="let marca of countVehiculo | keyvalue">
+          {{ marca.key }}: {{ marca.value }}
+        </li>
+      </ul>
       <div class="footer"><p>Contact us: +57 310501826 - info&#64;tusegundazo.com - &#64;tusegundazo.com</p></div>
     </div>
   </div>
